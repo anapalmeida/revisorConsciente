@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+
+<html>
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;700;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="button.css">
+  <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+  <div class="container">
+    <a href="#" target="_blank"><img id="mainLogo" src="./images/logo1.svg" alt="Logo do dummy." /></a>
+    <div class="divider"></div>
+    <h2>Configurações</h2>
+    <div class="option_group">
+
+      <div class="option1">
+        <label>Ativar o tradutor consciente</label>
+        <label class="switch">
+          <input type="checkbox" checked>
+          <span class="slider round"></span>
+        </label>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="option2">
+        <label>Escrevo em</label>
+        <select name="select">
+          <optgroup>
+            <option value="opt_spanish">Espanhol</option>
+            <option value="opt_portuguese" selected>Português</option>
+        </select>
+        </optgroup>
+      </div>
+    </div>
+    <!-- <button id="changeColor"></button> -->
+    <script src="popup.js"></script>
+  </div>
+</body>
+
+</html>
